@@ -112,12 +112,20 @@ Kata sandi default untuk seluruh akun: `Admin123!`
 
 ---
 
-## 📑 Struktur Direktori Proyek
+## 📑 Struktur Direktori Proyek & Dokumentasi
+
+- **Laporan Serah Terima Final**: [docs/FINAL_DELIVERY_REPORT.md](file:///workspaces/erp/docs/FINAL_DELIVERY_REPORT.md)
+- **Matriks Kebutuhan & Traceability**: [docs/audit/requirement-traceability-matrix.md](file:///workspaces/erp/docs/audit/requirement-traceability-matrix.md)
+- **Arsitektur & Skema Database**: [docs/architecture/database.md](file:///workspaces/erp/docs/architecture/database.md)
+- **Workflow POS & Akuntansi Double-Entry**: [docs/workflows/pos-and-accounting.md](file:///workspaces/erp/docs/workflows/pos-and-accounting.md)
+- **Panduan Migrasi Accurate.id**: [docs/migration/accurate-import.md](file:///workspaces/erp/docs/migration/accurate-import.md)
+- **Bukti Pengujian & QA**: [docs/testing/test-plan-and-evidence.md](file:///workspaces/erp/docs/testing/test-plan-and-evidence.md)
 
 ```
 /workspaces/erp/
 ├── drizzle/                    # Drizzle migrations
 ├── docs/                       # Dokumentasi arsitektur, audit & workflow
+│   ├── FINAL_DELIVERY_REPORT.md # Laporan final delivery & sign-off
 │   ├── adr/                    # Architecture Decision Records
 │   ├── architecture/           # Desain teknis database & offline sync
 │   ├── audit/                  # Baseline audit & risk register
